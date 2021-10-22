@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <!-- gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+      integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"
+      integrity="sha512-1OG9UO4krPizjtz/c9iDbjCqtXznBYdJeD4ccPaYfJHzC6F1qoQ3P1bgQ3J8lgCoK5qGVCqsY4+/RKjLDzITVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- lodash -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+      integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- swiper -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script defer src="./js/youtube.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="/js/main.js"></script>
+    
+    <script defer src="/js/test.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="index.html">
+          <!-- <h1>아름다운 편지 운동본부</h1> -->
+          <img src="images/logo6.png" alt="" />
+          <img src="images/fly.png" alt="" />
+        </a>
+      </div>
+
+      <ul class="menu">
+        <div class="inner">
+          <li>
+            본부소개
+            <ul class="sub-menu">
+              <li><a href="/sub_page/comment.html">인사말</a></li>
+              <li><a href="/sub_page/history.html">연혁</a></li>
+              <li><a href="/sub_page/way.html" target="blank">오시는 길</a></li>
+            </ul>
+          </li>
+          <li><a href="/sub_page/letter.html">아름다운편지</a></li>
+          <li>
+            알림
+            <ul class="sub-menu">
+              <li><a href="/sub_page/notice.html">공지사항</a></li>
+              <li><a href="/sub_page/news.html">운동본부 소식</a></li>
+            </ul>
+          </li>
+          <li><a href="/sub_page/works.html">작품집</a></li>
+          <li>
+            후원회
+            <ul class="sub-menu">
+              <li><a href="/sub_page/support_info.html">후원회소개</a></li>
+              <li><a href="/sub_page/support_notice.html">후원공지</a></li>
+              <li><a href="/sub_page/support_rule.html">후원회회칙</a></li>
+            </ul>
+          </li>
+        </div>
+
+        <div class="badges">
+          <div class="badge">
+            <span class="material-icons">settings</span>
+            <p>Quick Menu</p>
+          </div>
+          <div class="badge">
+            <span class="material-icons"> directions_transit_filled </span>
+            <a href="/sub_page/way.html" target="blank">오시는길</a>
+          </div>
+        </div>
+      </ul>
+    </header>
+
+    <section class="visual">
+      <div class="inner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/images/slide15.jpg" alt="배경15" />
+            </div>
+            <!-- <div class="swiper-slide">
+              <img src="/images/slide15.png" alt="배경15" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/slide13.jpg" alt="배경13" />
+            </div> -->
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-prev">
+          <div class="material-icons">arrow_back_ios</div>
+        </div>
+        <div class="swiper-next">
+          <div class="material-icons">arrow_forward_ios</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="inner">
+        <div class="notice box">
+          <div class="notice-list">
+            <h3>
+              공지사항
+              <span class="material-icons">
+                <a href="/sub_page/notice.html">add</a>
+              </span>
+            </h3>
+
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)">[공고] 내용을 입력해주세요</a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">[정보] 공지의 내용을 적어주세요</a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">[안내] 안내의 내용을 적어주세요</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="notice-baner">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="/images/banner1.jpg" alt="ddd" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/images/banner2.jpg" alt="ddd" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/images/banner3.jpg" alt="ddd" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news box">
+          <h3>
+            운동본부 소식
+
+            <span class="material-icons">
+              <a href="/sub_page/news.html">add</a>
+            </span>
+          </h3>
+
+          <div class="news-main">
+            <div class="image">
+              <img
+                style="width: 100px; height: 100px"
+                src="/images/slide5.jpg"
+                alt=""
+              />
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta id
+              quod laudantium assumenda dolorem cumque voluptas eos excepturi
+              velit dicta repellat fugit tempora aliquid consequatur, explicabo
+              sapiente error porro nobis.
+            </p>
+          </div>
+
+          <ul class="news-sub">
+            <li><a href="">부산대학교</a> <span>2021.08.10</span></li>
+            <li><a href="">서울대학교</a><span>2021.08.10</span></li>
+            <li><a href="">아름다운 편지쓰기 </a><span>2021.08.10</span></li>
+          </ul>
+        </div>
+
+        <div class="contest box">
+          <div class="contest-top">
+            <h4>공모전</h4>
+            <h4>홍보영상</h4>
+          </div>
+          <div class="contest-bottom">
+            <div class="contest-post">
+              <img class="post-img" src="/images/공모전포스트.jpg" alt="" />
+              <div class="post-box none">
+                <a
+                  class="btn"
+                  href="http://helloedunews.com/news/article.html?no=24818"
+                  target="blank"
+                  >자세히보기</a
+                >
+              </div>
+            </div>
+            <div class="contest-movie">
+              <div class="youtube__area">
+                <div id="player"></div>
+              </div>
+              <div class="youtube__cover">
+                <a
+                  class="btn2 none"
+                  href="https://www.youtube.com/watch?v=tBgdV45X3_I"
+                  target="blank"
+                  >자세히보기</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="youtube box">
+          <div class="youtube__area">
+            <div id="player"></div>
+          </div>
+          <div class="youtube__cover"></div>
+        </div> -->
+
+        <!-- <div class="contact box">
+          <p><span>문의전화</span> : <span> 02-785-5123</span></p>
+          <p><span>팩스</span> : <span> 02-545-5451</span></p>
+          <p>email : ggg@naver.com</p>
+          <p>상담가능 시간은 9~18시 가능합니다</p>
+        </div> -->
+        <div class="banner box">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/banner_slide.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/banner_slide2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/banner_slide3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/banner_slide4.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/banner_slide5.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/banner_slide6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/banner_slide7.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="swiper-prev">
+            <div class="material-icons">arrow_back</div>
+          </div>
+          <div class="swiper-next">
+            <div class="material-icons">arrow_forward</div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="inner">
+        <div class="info">
+          <span>사업자 등록번호 201-81-21515</span>
+          <span>(주)아름다운 운동본부 김성이(전 보건복지부 장관)</span>
+          <span>Tel : 02 )3402-1100 / fax : 02) 3101-1106</span>
+          <span>편집 발행인 :곽선영</span>
+        </div>
+        <p>주소 : 서울 중구 퇴계로50가길 22 신현빌딩 2층</p>
+        <p class="copyright">
+          &copy; <span class="this-year"></span> 아름다운 교육신문. All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+    <div id="to-top">
+      <div class="material-icons">arrow_upward</div>
+    </div>
+  </body>
+</html>
