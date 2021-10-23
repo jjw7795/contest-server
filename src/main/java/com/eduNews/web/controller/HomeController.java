@@ -1,6 +1,7 @@
 package com.eduNews.web.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,8 +14,9 @@ public class HomeController {
 	}
 	
 	@PostMapping("/post")
-	public String b(String ba) {
-		 System.out.println(ba);
+	public String b(String name) {
+		
+		 System.out.println(name);
 		 System.out.println("zzzzzdfdfd");
 	   	return "zzzzz";
 	}
